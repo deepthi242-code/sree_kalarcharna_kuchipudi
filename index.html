@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sree Kalaacharan Kuchipudi Nrityalayam - Learn, Express, Perform with Guru Deepthi.">
+  <title>Sree Kalaacharan Nrityalayam | Kuchipudi Dance Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span class="brand-mark">ॐ</span>
+      <span><strong>Sree Kalaacharan</strong><small>Nrityalayam</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#classes">Classes</a>
+      <a href="#gallery">Gallery</a><a href="#events">Events</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">శ్రీ కళాచరణ కూచిపూడి నృత్యాలయం</p>
+        <h1>Learn <span>•</span> Express <span>•</span> Perform</h1>
+        <p class="hero-text">Traditional Kuchipudi training with discipline, expression and devotion under the guidance of <strong>Guru Deepthi</strong>.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#contact">Join Classes</a>
+          <a class="btn btn-outline" href="#gallery">Explore Gallery</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/images/deepu.jpeg" alt="Guru Deepthi Kuchipudi performance">
+      </div>
+    </section>
+
+    <section id="about" class="section two-col">
+      <div>
+        <p class="eyebrow">About the Academy</p>
+        <h2>Where tradition meets expression.</h2>
+        <p>Sree Kalaacharan Nrityalayam is dedicated to nurturing the beauty, discipline and expressive language of Indian classical dance.</p>
+        <p>Led by <strong>Guru Deepthi Polagani</strong>, the academy provides training in Kuchipudi and semi-classical dance, encouraging students to learn with devotion and perform with confidence.</p>
+      </div>
+      <div class="quote-card">
+        <span>“</span>
+        <p>Dance is not only movement; it is a language of expression, tradition and emotion.</p>
+        <strong>— Guru Deepthi</strong>
+      </div>
+    </section>
+
+    <section id="classes" class="section section-alt">
+      <div class="section-heading"><p class="eyebrow">Training</p><h2>Our Classes</h2><p>Structured learning for students who want to learn, express and perform.</p></div>
+      <div class="cards">
+        <article class="card"><div class="icon">✦</div><h3>Kuchipudi</h3><p>Classical Kuchipudi fundamentals, adavus, expressions, repertoire and performance practice.</p></article>
+        <article class="card"><div class="icon">◈</div><h3>Semi-Classical</h3><p>Graceful choreography combining classical foundations with accessible performance pieces.</p></article>
+        <article class="card"><div class="icon">❖</div><h3>Performance Training</h3><p>Stage preparation, expressions, presentation, rhythm and confidence for cultural programs.</p></article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="section-heading"><p class="eyebrow">Moments</p><h2>Gallery</h2><p>Replace these placeholders with your academy photographs and performance videos.</p></div>
+      <div class="gallery">
+        <div class="gallery-item">Performance Photo</div><div class="gallery-item">Students</div>
+        <div class="gallery-item">Gajja Pooja</div><div class="gallery-item">Workshop</div>
+        <div class="gallery-item">Cultural Program</div><div class="gallery-item">Certificates</div>
+      </div>
+    </section>
+
+    <section id="events" class="section section-alt">
+      <div class="section-heading"><p class="eyebrow">What's happening</p><h2>Upcoming Events</h2></div>
+      <div class="event-card">
+        <div class="event-date"><strong>2026</strong><span>EVENT</span></div>
+        <div><h3>Academy Cultural Programs</h3><p>Performance and workshop announcements will appear here.</p></div>
+        <a class="text-link" href="#contact">Enquire →</a>
+      </div>
+    </section>
+
+    <section class="section admission">
+      <div><p class="eyebrow">Begin your journey</p><h2>Ready to learn dance?</h2><p>Join Sree Kalaacharan Nrityalayam and grow through tradition, practice and performance.</p></div>
+      <a class="btn btn-primary" href="#contact">Enquire About Classes</a>
+    </section>
+
+    <section id="contact" class="section two-col contact">
+      <div>
+        <p class="eyebrow">Contact</p><h2>Let’s dance together.</h2>
+        <p><strong>Guru Deepthi Polagani</strong><br>Sree Kalaacharan Nrityalayam</p>
+        <p>📞 <a href="tel:+917382661999">73826 61999</a><br>📞 <a href="tel:+919494825059">94948 25059</a></p>
+        <p>📍 Gudlavalleru, Andhra Pradesh</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input required name="name" placeholder="Your name">
+        <input required type="tel" name="phone" placeholder="Phone number">
+        <select name="class"><option>Kuchipudi</option><option>Semi-Classical</option><option>Performance Training</option></select>
+        <textarea name="message" rows="4" placeholder="Message"></textarea>
+        <button class="btn btn-primary" type="submit">Send Enquiry</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Sree Kalaacharan Nrityalayam • Guru Deepthi</p><p>Learn • Express • Perform</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
